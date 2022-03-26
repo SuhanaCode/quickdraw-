@@ -1,0 +1,50 @@
+body{
+  background-color: cornflowerblue;
+}
+
+h1{
+  color: burlywood;
+  font-weight: bold;
+  background-color: blueviolet;
+}
+
+#show_sketch{
+  float: right;
+}
+
+#Score_span{
+  float: left;
+  font-size: 30px;
+  background-color: cyan;
+}
+
+#Timer_span{
+  float: right;
+  font-size: 30px;
+  background-color: aquamarine;
+}
+
+canvas{
+  border: 5px solid white;
+  border-radius: 20px;
+
+  animation-name: canvas;
+  animation-duration: 4s;
+  margin-top: 50px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes canvas{
+  from{box-shadow : 1px 1px 38px rgb(182, 69, 69);}
+  to{box-shadow : 1px 1px 38px rgb(138, 170, 86);}
+}
+
+#SketchToBeDrawn{
+  color: red;
+  font-weight: bolder;
+}
+
+p{
+  padding-top: 10px;
+  font-size: 25px;
+}
